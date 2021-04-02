@@ -40,14 +40,24 @@ header{
     min-width: 320px;
     height: 334px;
     text-align: center;
-    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);;
+    background: var(--warm-black)
 }
 
 header img{
-    width: 150px;
-    height: 24px;
-    margin-top: 60px;
+    width: 45px;
+    height: 45px;
     align-self: center;
+}
+
+header h1{
+    color: var(--just-white);
+    font-size: 45px;
+}
+
+.header--title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header--title-container{
@@ -72,7 +82,7 @@ header img{
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: var(--soft-orange);
+    color: var(--just-white);
 }
 
 .header--title-container .header--button{
@@ -167,7 +177,7 @@ main{
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
-    color: var(--bitcoin-orange);
+    color: var(--warm-black);
 }
 
 .currency-table--container {
@@ -240,7 +250,7 @@ main{
     margin: 0 auto;
     margin-top: 15px;
     padding: 8px;
-    background-color: var(--soft-orange);
+    background-color: var(--warm-black);
     border-radius: 8px;
 }
 
@@ -248,7 +258,7 @@ main{
     font-size: 1.2rem;
     line-height: 1.5rem;
     font-weight: 300;
-    color: var(--warm-black);
+    color: var(--just-white);
 }
 
 /*Segunda tabla*/
@@ -257,7 +267,7 @@ main{
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
-    color: #1A9AF7;
+    color: var(--warm-black);
 }
 
 .currency-table--date2{
@@ -266,7 +276,7 @@ main{
     margin: 0 auto;
     margin-top: 15px;
     padding: 8px;
-    background-color: #E7F5FF;
+    background-color: var(--warm-black);
     border-radius: 8px;
 }
 
@@ -274,7 +284,7 @@ main{
     font-size: 1.2rem;
     line-height: 1.5rem;
     font-weight: 300;
-    color: var(--warm-black);
+    color: var(--just-white);
 }
 
 /*-------SECCION 3--------*/
@@ -289,11 +299,13 @@ main{
 
 .product-detail--batata-logo{
     position: absolute;
-    width: 40px;
-    height: 25px;
-    top: -10px;
+    width: 44px;
+    height: 45px;
+    top: -20px;
     left: calc(50% - 20px);
-    background-image: url(./assets/icons/group16.svg);
+    background-image: url("./assets/imgs/1978543.png");
+    background-size: cover;
+    background-position:  center;
 }
 
 .product-detail--title{
@@ -437,7 +449,7 @@ html {
     height: 250px;
     margin: 50px 5px 0;
     padding: 0 15px;
-    background-color: var(--just-white);
+    background-color: var(--warm-black);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
@@ -450,7 +462,7 @@ html {
     top: -15px;
     left: calc(50% - 60px);
     font-size: 1.2rem;
-    background-color: var(--bitcoin-orange);
+    background-color: var(--warm-black);
     border-radius: 8px;
     color:var(--just-white);
 }
@@ -460,7 +472,7 @@ html {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: black;
+    color: var(--just-white);
 
 }
 
@@ -469,7 +481,7 @@ html {
     font-size: 5.2rem;
     font-weight: bold;
     line-height: 5.3rem;
-    color: black;
+    color: var(--just-white);
 }
 
 .plan-card--price span{
@@ -492,20 +504,20 @@ html {
 */
 .plan-card--saving{
     font-size: 1.2rem;
-    color: #757575;
+    color: var(--just-white);
 }
 
 .plan-card--ca{
     width: 150px;
     height: 48px;
     margin-top: 20px;
-    background-color: #faf9f7;
-    border: 2px solid var(--bitcoin-orange);
+    background-color: var(--warm-black);
+    border: 2px solid var(--just-white);
     border-radius: 4px;
     font-size: 1.4rem;
     font-weight: bold;
     line-height: 1.8rem;
-    color: var(--black);
+    color: var(--just-white);
     cursor: pointer;
 }
 
@@ -533,7 +545,7 @@ footer{
     display: flex;
     width: 100%;
     height: 150px;
-    background-color: var(--bitcoin-orange);
+    background-color: var(--warm-black);
 }
 
 footer section{
@@ -557,5 +569,10 @@ footer .left ul {
 .left a{
     text-decoration: none;
     color: var(--just-white);
+}
+
+footer .right img{
+    width: 45px;
+    height: 45px;
 }
 
