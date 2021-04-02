@@ -94,7 +94,7 @@ header h1{
     padding: 15px;
     width: 229px;
     height: 48px;
-    background-color: var(--off-white);
+    background-color: var(--just-white);
     /*---SOMBRAS----*/
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border: none;
@@ -102,7 +102,7 @@ header h1{
     font-size: 1.4rem;
     font-weight: bold;
     text-decoration: none;
-    color: var(--black);
+    color: var(--warm-black)
 }
 
 .header--button span{
@@ -139,7 +139,7 @@ main{
     height: 200px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background-image: url('./assets/imgs/bitcoin.svg');
+    background-image: url('./assets/imgs/images.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -462,9 +462,11 @@ html {
     top: -15px;
     left: calc(50% - 60px);
     font-size: 1.2rem;
-    background-color: var(--warm-black);
+    background-color: var(--bitcoin-orange);
     border-radius: 8px;
-    color:var(--just-white);
+    color:var(--black);
+    border: 2px solid var(--warm-black);
+    font-weight: bold;
 }
 
 .plan-card--title{
